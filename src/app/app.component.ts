@@ -19,7 +19,6 @@ export type ChartOptions = {
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  // @ViewChild("chart", { static: false }) chart: ChartComponent;
   private data = [10, 41, 35, 51, 49, 62, 69, 91, 148];
   public chartOptions: ChartOptions = {
     series: [
